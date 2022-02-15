@@ -9,7 +9,34 @@ Requirements gathering-
 
 Classes-
 
-class ParkingLot{
+class ParkingLotSystem{
     
   
-  }
+}
+class Parkingspot{
+
+
+}
+class Ticket{
+
+
+}
+Class teminal{
+
+}
+class entryterminal:public terminal{
+
+}
+class exitterminal:public terminal{
+
+}
+class Payment{
+
+}
+class CashPayment:public payment{
+
+}
+class CreditPayment:public payment{
+
+}
+
