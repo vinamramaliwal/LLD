@@ -6,3 +6,10 @@ Requirements gathering-
   5-Parking charges will be based on time.
   6-Nearest parking spot is assigned.
   7-Payment can be done via cash/credit cards.
+
+Classes-
+
+class ParkingLot{
+    
+  
+  }
