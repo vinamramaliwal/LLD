@@ -10,25 +10,45 @@ Requirements gathering-
 Classes-
 
 class ParkingLotSystem{
+    list<Parkingspot*> listofParkingSpots;
+    list<Terminals*> listofTerminals;
+    set<Parkingspot*> available;
+    set<Parkkingspot*> reserve;
+    map<int,priority_queue> mapOfMinHeaps; //number of heaps will be 3(types of parking)*4(terminals)
     
   
 }
-class Parkingspot{
 
+enum Parkingtypes{Motorcycle,Cars,BigVehicles};
+
+class Parkingspot{
+  int x;
+  int y;
+  id:int;
+  type:enum;
+  reserve:bool;
 
 }
 class Ticket{
-
-
+    id:int;
+    entrytime:datetime;
+    exittime:datetime;
+    totalcharge:int;
+    vehicleNo:string;
+    parkingspotId:int;
+    parkingspotType:enum;
 }
 Class teminal{
-
+  int x;
+  int y;
+  int id;
+  getId();
 }
 class entryterminal:public terminal{
-
+      getTicket(vehicleNo,parkingspotType);
 }
 class exitterminal:public terminal{
-
+      acceptTicket(ticketId);
 }
 class Payment{
 
@@ -39,4 +59,3 @@ class CashPayment:public payment{
 class CreditPayment:public payment{
 
 }
-
