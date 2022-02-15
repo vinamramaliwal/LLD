@@ -1,1 +1,8 @@
-
+Requirements gathering-
+  1-Parking lot has 10-20k parking spots.
+  2-Parking spot can be of 3 sizes.
+  3-Multiple entry/exit terminals.
+  4-Parking ticket will be issues at the entry.
+  5-Parking charges will be based on time.
+  6-Nearest parking spot is assigned.
+  7-Payment can be done via cash/credit cards.
